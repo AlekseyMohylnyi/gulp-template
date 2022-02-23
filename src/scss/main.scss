@@ -1,0 +1,28 @@
+$main-color: grey;
+$header-color: red;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 22px;
+    font-family: Arial;
+    line-height: 1.5;
+}
+
+.title {
+    color: red;  
+    text-transform: lowercase;  
+    background-color: $main-color;
+}
+
+@media (max-width: 700px) {
+    .title {
+        color: burlywood;
+        background-color: brown;
+    }
+}
+
+@import './blocks/header.scss';
+@import './blocks/footer.scss';

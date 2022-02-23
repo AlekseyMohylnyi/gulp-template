@@ -1,0 +1,14 @@
+@import './reset.css';
+@import './fonts.css';
+@import './vars.css';
+
+
+body {
+    font-family: 'Poppins-Regular'; 
+    background-color: var(--grey);
+    color: var(--black);
+    font-size: 16px;
+}
+
+@import './blocks/header.css';
+@import './blocks/footer.css';

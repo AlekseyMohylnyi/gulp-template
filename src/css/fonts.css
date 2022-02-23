@@ -1,0 +1,17 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'HopHopBunny';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('../fonts/HopHopBunny.woff2') format('woff2');
+}

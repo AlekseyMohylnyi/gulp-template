@@ -1,0 +1,11 @@
+.footer {
+    color: blue;
+    font-size: 28px;
+}
+
+@media (max-width: 700px) {
+    .footer {
+        color: pink;
+        background-color: black;
+    }
+}
